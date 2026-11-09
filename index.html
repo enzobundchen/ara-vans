@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ara Vans Viagens e Turismo | Transformando sonhos em destinos</title>
+  <meta name="description" content="Ara Vans Viagens e Turismo: fretamento de ônibus, micro-ônibus e vans para viagens, excursões, eventos e transporte universitário e escolar. Solicite seu orçamento.">
+  <meta name="theme-color" content="#0f0f12">
+  <meta property="og:title" content="Ara Vans Viagens e Turismo">
+  <meta property="og:description" content="Transformando sonhos em destinos. Viagens, turismo e transporte universitário e escolar.">
+  <meta property="og:image" content="img/frota-branco.jpg">
+  <link rel="icon" href="img/favicon.png">
+  <link rel="apple-touch-icon" href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Yellowtail&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#inicio" class="brand" aria-label="Ara Vans – início">
+        <img src="img/logo-aravans.webp" alt="Ara Vans Viagens e Turismo" class="logo logo--nav" width="640" height="143">
+      </a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#servicos">Serviços</a>
+        <a href="#frota">Frota</a>
+        <a href="#destinos">Destinos</a>
+        <a href="#diferenciais">Por que nós</a>
+        <a href="#orcamento">Orçamento</a>
+      </nav>
+      <a class="btn btn--red btn--sm nav__cta" href="https://api.whatsapp.com/send?phone=5548999999180&text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento!" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg> WhatsApp
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="blob blob--1"></div>
+        <div class="blob blob--2"></div>
+        <div class="grain"></div>
+      </div>
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <h1 class="hero__title reveal" data-delay="1">
+            Transformando <em>sonhos</em><br> em destinos.
+          </h1>
+          <p class="hero__lead reveal" data-delay="2">
+            Fretamento de ônibus, micro-ônibus e vans, motoristas experientes
+            e todo o conforto para você só se preocupar em aproveitar a viagem.
+          </p>
+          <div class="hero__actions reveal" data-delay="3">
+            <a href="#orcamento" class="btn btn--red btn--lg magnetic">Solicitar orçamento
+              <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow"/></svg>
+            </a>
+            <a href="#frota" class="btn btn--ghost btn--lg">Conhecer a frota</a>
+          </div>
+          <ul class="hero__chips reveal" data-delay="4">
+            <li><svg viewBox="0 0 24 24"><use href="#i-shield"/></svg> Frota revisada</li>
+            <li><svg viewBox="0 0 24 24"><use href="#i-seat"/></svg> Conforto premium</li>
+            <li><svg viewBox="0 0 24 24"><use href="#i-pin"/></svg> Araranguá–SC</li>
+          </ul>
+        </div>
+
+        <div class="hero__media reveal" data-delay="2">
+          <div class="phone tilt">
+            <video class="phone__video" autoplay muted loop playsinline preload="metadata" poster="img/hero-poster.webp">
+              <source src="img/hero.mp4" type="video/mp4">
+            </video>
+            <div class="phone__shine"></div>
+          </div>
+          <div class="float-card float-card--a">
+            <span class="float-card__icon"><svg viewBox="0 0 24 24"><use href="#i-star"/></svg></span>
+            <div><strong>Double Deck</strong><small>Marcopolo Paradiso</small></div>
+          </div>
+          <div class="float-card float-card--b">
+            <span class="float-card__icon float-card__icon--green"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></span>
+            <div><strong>Viagem segura</strong><small>Manutenção em dia</small></div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#servicos" class="scroll-cue" aria-label="Rolar para baixo"><span></span></a>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="section" id="servicos">
+      <div class="container">
+        <div class="section__head">
+          <p class="kicker reveal">O que fazemos</p>
+          <h2 class="reveal" data-delay="1">Seu destino, <span class="red">nossa estrada.</span></h2>
+          <p class="section__sub reveal" data-delay="2">Do passeio em família à viagem da empresa, cuidamos do transporte de ponta a ponta.</p>
+        </div>
+
+        <div class="services">
+          <article class="service reveal">
+            <div class="service__img"><img src="img/parada.webp" alt="Ônibus Ara Vans estacionados em destino turístico" style="object-position:50% 71%;transform-origin:93% 0;--z:1.55" loading="lazy"></div>
+            <div class="service__body">
+              <span class="service__num">01</span>
+              <h3>Viagens e Turismo</h3>
+              <p>Roteiros para Gramado, Balneário Camboriú, Beto Carrero, hotéis fazenda e muito mais, com conforto do embarque ao retorno.</p>
+            </div>
+          </article>
+          <article class="service reveal" data-delay="1">
+            <div class="service__img"><img src="img/frota-branco.webp" alt="Ônibus Ara Vans para transporte universitário e escolar" style="object-position:50% 37%" loading="lazy"></div>
+            <div class="service__body">
+              <span class="service__num">02</span>
+              <h3>Transporte Universitário e Escolar</h3>
+              <p>Rotas diárias e excursões escolares com pontualidade e a tranquilidade que alunos, pais e professores merecem.</p>
+            </div>
+          </article>
+          <article class="service reveal" data-delay="2">
+            <div class="service__img"><img src="img/dd-vermelho.webp" alt="Ônibus Ara Vans para eventos e festas" style="object-position:50% 77%" loading="lazy"></div>
+            <div class="service__body">
+              <span class="service__num">03</span>
+              <h3>Eventos e Fretamento</h3>
+              <p>Oktoberfest, festas de fim de ano, casamentos, grupos e empresas. Você curte, a gente leva e traz com segurança.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FROTA -->
+    <section class="section section--dark" id="frota">
+      <div class="container">
+        <div class="section__head section__head--row">
+          <div>
+            <p class="kicker reveal">Frota própria</p>
+            <h2 class="reveal" data-delay="1">O veículo certo<br>para cada grupo.</h2>
+          </div>
+          <div class="fleet__nav reveal" data-delay="2">
+            <button class="round-btn" data-dir="-1" aria-label="Anterior"><svg viewBox="0 0 24 24"><use href="#i-arrow"/></svg></button>
+            <button class="round-btn" data-dir="1" aria-label="Próximo"><svg viewBox="0 0 24 24"><use href="#i-arrow"/></svg></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="fleet" id="fleet">
+        <article class="vehicle">
+          <div class="vehicle__img"><img src="img/estrada.webp" alt="Ônibus executivo Ara Vans na rodovia" style="object-position:50% 32%" loading="lazy"></div>
+          <div class="vehicle__info">
+            <span class="badge">Executivo</span>
+            <h3>Ônibus Executivo</h3>
+            <p>Poltronas reclináveis, ar-condicionado e bagageiro amplo para viagens longas.</p>
+          </div>
+        </article>
+        <article class="vehicle">
+          <div class="vehicle__img"><img src="img/hero-poster.webp" alt="Ônibus double deck Marcopolo na estrada" style="object-position:50% 54%" loading="lazy"></div>
+          <div class="vehicle__info">
+            <span class="badge">Premium</span>
+            <h3>Double Deck</h3>
+            <p>Dois andares, mais capacidade e uma experiência de viagem de outro nível.</p>
+          </div>
+        </article>
+        <article class="vehicle">
+          <div class="vehicle__img"><img src="img/oktoberfest.webp" alt="Ônibus rodoviário Ara Vans" style="object-position:50% 64%;transform-origin:50% 0;--z:1.18" loading="lazy"></div>
+          <div class="vehicle__info">
+            <span class="badge">Fretamento</span>
+            <h3>Ônibus Rodoviário</h3>
+            <p>Ideal para eventos, excursões e transporte de grupos grandes.</p>
+          </div>
+        </article>
+        <article class="vehicle">
+          <div class="vehicle__img"><img src="img/vans.webp" alt="Vans Mercedes-Benz Sprinter Ara Vans" style="object-position:50% 61%" loading="lazy"></div>
+          <div class="vehicle__info">
+            <span class="badge">Grupos menores</span>
+            <h3>Vans e Micro-ônibus</h3>
+            <p>Sprinter e micro-ônibus para traslados, excursões escolares e passeios em família.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- FROTA EM DESTAQUE: SPRINTER -->
+    <section class="section section--soft" id="sprinter">
+      <div class="container">
+        <div class="section__head">
+          <p class="kicker reveal">Conheça por dentro da frota</p>
+          <h2 class="reveal" data-delay="1">Conforto em cada<br><span class="red">detalhe.</span></h2>
+        </div>
+        <div class="spec">
+          <div class="spec__media reveal">
+            <img src="img/sprinter.webp" alt="Van Mercedes-Benz Sprinter branca da Ara Vans, versão 15 lugares" width="900" height="1062" loading="lazy">
+            <span class="spec__seats"><strong>15</strong> lugares</span>
+          </div>
+          <div class="spec__panel reveal" data-delay="1">
+            <h3 class="spec__title">Van Mercedes-Benz Sprinter</h3>
+            <ul class="spec__list">
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-users"/></svg></span>15 lugares</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-snow"/></svg></span>Ar-condicionado</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-bag"/></svg></span>Bagageiro</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-music"/></svg></span>Som ambiente</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-case"/></svg></span>Maleiro</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-door"/></svg></span>Porta automática</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-seat"/></svg></span>Poltrona soft</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-plug"/></svg></span>Tomadas</li>
+            </ul>
+            <a href="#orcamento" class="btn btn--light">Orçar com a Sprinter <svg viewBox="0 0 24 24"><use href="#i-arrow"/></svg></a>
+          </div>
+        </div>
+        <div class="spec">
+          <div class="spec__media reveal">
+            <img src="img/sprinter.webp" alt="Van Mercedes-Benz Sprinter branca da Ara Vans" width="900" height="1062" loading="lazy">
+            <span class="spec__seats"><strong>20</strong> lugares</span>
+          </div>
+          <div class="spec__panel reveal" data-delay="1">
+            <h3 class="spec__title">Van Mercedes-Benz Sprinter</h3>
+            <ul class="spec__list">
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-users"/></svg></span>20 lugares</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-snow"/></svg></span>Ar-condicionado</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-bag"/></svg></span>Bagageiro</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-music"/></svg></span>Som ambiente</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-case"/></svg></span>Maleiro</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-door"/></svg></span>Porta automática</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-seat"/></svg></span>Poltrona soft</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-plug"/></svg></span>Tomadas</li>
+            </ul>
+            <a href="#orcamento" class="btn btn--light">Orçar com a Sprinter <svg viewBox="0 0 24 24"><use href="#i-arrow"/></svg></a>
+          </div>
+        </div>
+        <div class="spec">
+          <div class="spec__media reveal">
+            <img src="img/micro.webp" alt="Micro-ônibus prata da Ara Vans estacionado na rua" width="900" height="788" loading="lazy">
+            <span class="spec__seats"><strong>28</strong> lugares</span>
+          </div>
+          <div class="spec__panel reveal" data-delay="1">
+            <h3 class="spec__title">Micro-ônibus</h3>
+            <ul class="spec__list">
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-users"/></svg></span>28 lugares</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-snow"/></svg></span>Ar-condicionado</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-seat"/></svg></span>Bancos reclináveis</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-bag"/></svg></span>Bagageiro</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-music"/></svg></span>Som ambiente</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-wifi"/></svg></span>Wi-Fi</li>
+            </ul>
+            <a href="#orcamento" class="btn btn--light">Orçar com o micro-ônibus <svg viewBox="0 0 24 24"><use href="#i-arrow"/></svg></a>
+          </div>
+        </div>
+        <div class="spec">
+          <div class="spec__media reveal">
+            <img src="img/onibus44.webp" alt="Ônibus rodoviário branco, vermelho e azul da Ara Vans" width="900" height="750" loading="lazy">
+            <span class="spec__seats"><strong>44</strong> lugares</span>
+          </div>
+          <div class="spec__panel reveal" data-delay="1">
+            <h3 class="spec__title">Ônibus Rodoviário</h3>
+            <ul class="spec__list">
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-users"/></svg></span>44 lugares</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-snow"/></svg></span>Ar-condicionado</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-seat"/></svg></span>Bancos reclináveis</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-bag"/></svg></span>Bagageiro</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-music"/></svg></span>Som ambiente</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-plug"/></svg></span>Tomadas</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-wifi"/></svg></span>Wi-Fi</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-tv"/></svg></span>TV</li>
+            </ul>
+            <a href="#orcamento" class="btn btn--light">Orçar com o ônibus <svg viewBox="0 0 24 24"><use href="#i-arrow"/></svg></a>
+          </div>
+        </div>
+        <div class="spec">
+          <div class="spec__media reveal">
+            <img src="img/onibus46.webp" alt="Ônibus semi-leito Marcopolo prata da Ara Vans" width="900" height="675" loading="lazy">
+            <span class="spec__seats"><strong>46</strong> lugares</span>
+          </div>
+          <div class="spec__panel reveal" data-delay="1">
+            <h3 class="spec__title">Ônibus Semi-leito</h3>
+            <ul class="spec__list">
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-users"/></svg></span>46 lugares</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-snow"/></svg></span>Ar-condicionado</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-seat"/></svg></span>Bancos semi-leito</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-wc"/></svg></span>Banheiro</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-fridge"/></svg></span>Frigobar</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-bag"/></svg></span>Bagageiro</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-plug"/></svg></span>Tomadas</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-music"/></svg></span>Som ambiente</li>
+              <li><span class="spec__ico"><svg viewBox="0 0 24 24"><use href="#i-wifi"/></svg></span>Wi-Fi</li>
+            </ul>
+            <a href="#orcamento" class="btn btn--light">Orçar com o semi-leito <svg viewBox="0 0 24 24"><use href="#i-arrow"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DIFERENCIAIS -->
+    <section class="section" id="diferenciais">
+      <div class="container split">
+        <div class="split__media reveal">
+          <div class="parallax-frame">
+            <img src="img/viagem.webp" alt="Passageiros embarcando no ônibus Ara Vans" class="parallax" style="object-position:50% 0%" loading="lazy">
+          </div>
+          <div class="split__stamp">
+            <img src="img/logo-aravans.webp" alt="Ara Vans Viagens e Turismo" class="logo logo--stamp" width="640" height="143">
+            <small>Você sonha, nós te levamos até lá.</small>
+          </div>
+        </div>
+        <div class="split__copy">
+          <p class="kicker reveal">Por que a Ara Vans</p>
+          <h2 class="reveal" data-delay="1">Mais segurança,<br><span class="red">mais conforto.</span></h2>
+          <p class="section__sub reveal" data-delay="2">Mantemos nossa frota moderna e atualizada por um motivo simples: você.</p>
+          <ul class="features">
+            <li class="feature reveal">
+              <span class="feature__icon"><svg viewBox="0 0 24 24"><use href="#i-shield"/></svg></span>
+              <div><h4>Frota própria e revisada</h4><p>Manutenção preventiva constante e veículos sempre atualizados.</p></div>
+            </li>
+            <li class="feature reveal" data-delay="1">
+              <span class="feature__icon"><svg viewBox="0 0 24 24"><use href="#i-wheel"/></svg></span>
+              <div><h4>Motoristas experientes</h4><p>Profissionais treinados que conhecem bem as estradas do Sul.</p></div>
+            </li>
+            <li class="feature reveal" data-delay="2">
+              <span class="feature__icon"><svg viewBox="0 0 24 24"><use href="#i-seat"/></svg></span>
+              <div><h4>Conforto de ponta a ponta</h4><p>Poltronas reclináveis, ar-condicionado e espaço para bagagem.</p></div>
+            </li>
+            <li class="feature reveal" data-delay="3">
+              <span class="feature__icon"><svg viewBox="0 0 24 24"><use href="#i-chat"/></svg></span>
+              <div><h4>Atendimento próximo</h4><p>Orçamento rápido pelo WhatsApp e acompanhamento em toda a viagem.</p></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESTINOS -->
+    <section class="section section--soft" id="destinos">
+      <div class="container">
+        <div class="section__head">
+          <p class="kicker reveal">Destinos favoritos</p>
+          <h2 class="reveal" data-delay="1">Para onde vamos <span class="red">juntos?</span></h2>
+        </div>
+        <div class="destinations">
+          <a href="#orcamento" class="dest reveal" data-dest="Gramado – RS"><span class="dest__n">01</span><h3>Gramado</h3><p>Serra Gaúcha</p><svg viewBox="0 0 24 24"><use href="#i-arrow"/></svg></a>
+          <a href="#orcamento" class="dest reveal" data-delay="1" data-dest="Balneário Camboriú – SC"><span class="dest__n">02</span><h3>Balneário Camboriú</h3><p>Litoral catarinense</p><svg viewBox="0 0 24 24"><use href="#i-arrow"/></svg></a>
+          <a href="#orcamento" class="dest reveal" data-delay="2" data-dest="Beto Carrero World – Penha/SC"><span class="dest__n">03</span><h3>Beto Carrero</h3><p>Diversão em família</p><svg viewBox="0 0 24 24"><use href="#i-arrow"/></svg></a>
+          <a href="#orcamento" class="dest reveal" data-dest="Oktoberfest – Blumenau/SC"><span class="dest__n">04</span><h3>Oktoberfest</h3><p>Blumenau</p><svg viewBox="0 0 24 24"><use href="#i-arrow"/></svg></a>
+          <a href="#orcamento" class="dest reveal" data-delay="1" data-dest="Hotel fazenda"><span class="dest__n">05</span><h3>Hotéis Fazenda</h3><p>Descanso e natureza</p><svg viewBox="0 0 24 24"><use href="#i-arrow"/></svg></a>
+          <a href="#orcamento" class="dest reveal" data-delay="2" data-dest=""><span class="dest__n">06</span><h3>Seu destino</h3><p>Montamos sob medida</p><svg viewBox="0 0 24 24"><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- INSTAGRAM -->
+    <section class="section" id="instagram">
+      <div class="container">
+        <div class="section__head section__head--row">
+          <div>
+            <p class="kicker reveal">@aravanstur</p>
+            <h2 class="reveal" data-delay="1">Acompanhe nossas viagens</h2>
+          </div>
+          <a class="btn btn--ghost-dark reveal" data-delay="2" href="https://www.instagram.com/aravanstur/" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24"><use href="#i-ig"/></svg> Seguir no Instagram
+          </a>
+        </div>
+        <div class="feed">
+          <a class="feed__item reveal" href="https://www.instagram.com/aravanstur/p/DPEdgBdDGZ2/" target="_blank" rel="noopener"><img src="img/frota-branco.webp" alt="Post: Você sonha, nós te levamos até lá" loading="lazy"></a>
+          <a class="feed__item reveal" data-delay="1" href="https://www.instagram.com/aravanstur/reel/DOzFS6OCsJ1/" target="_blank" rel="noopener"><img src="img/viagem.webp" alt="Reel: acompanhe uma viagem com a Ara Vans" loading="lazy"><span class="feed__play"></span></a>
+          <a class="feed__item reveal" data-delay="2" href="https://www.instagram.com/aravanstur/p/DPq3z0GDAgC/" target="_blank" rel="noopener"><img src="img/vans.webp" alt="Post: A Ara Vans está pronta para te levar onde você quiser" loading="lazy"></a>
+          <a class="feed__item reveal" href="https://www.instagram.com/aravanstur/p/DOjoZkfgVxc/" target="_blank" rel="noopener"><img src="img/estrada.webp" alt="Post: Mais segurança, mais conforto" loading="lazy"></a>
+          <a class="feed__item reveal" data-delay="1" href="https://www.instagram.com/aravanstur/p/DPl6qMlAcEC/" target="_blank" rel="noopener"><img src="img/oktoberfest.webp" alt="Post: Oktoberfest com segurança é com a Ara Vans" loading="lazy"></a>
+          <a class="feed__item reveal" data-delay="2" href="https://www.instagram.com/aravanstur/p/DPSFmgiE9Tz/" target="_blank" rel="noopener"><img src="img/parada.webp" alt="Post: Dia das Crianças em família" loading="lazy"></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ORÇAMENTO -->
+    <section class="section cta" id="orcamento">
+      <div class="cta__bg" aria-hidden="true"><img src="img/dd-vermelho.webp" alt="" style="object-position:50% 70%" loading="lazy"></div>
+      <div class="container cta__grid">
+        <div class="cta__copy">
+          <p class="kicker kicker--light reveal">Orçamento sem compromisso</p>
+          <h2 class="reveal" data-delay="1">Pronto para a<br>próxima viagem?</h2>
+          <p class="reveal" data-delay="2">Conte pra gente para onde você quer ir. Respondemos rapidinho pelo WhatsApp.</p>
+          <div class="contact-list reveal" data-delay="3">
+            <a href="https://api.whatsapp.com/send?phone=5548999999180" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><use href="#i-wa"/></svg> (48) 99999-9180</a>
+            <a href="tel:+554835246799"><svg viewBox="0 0 24 24"><use href="#i-phone"/></svg> (48) 3524-6799</a>
+            <a href="https://www.instagram.com/aravanstur/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><use href="#i-ig"/></svg> @aravanstur</a>
+          </div>
+        </div>
+
+        <form class="quote reveal" id="quoteForm" data-delay="2" novalidate>
+          <h3>Monte seu orçamento</h3>
+          <div class="field">
+            <input id="f-nome" name="nome" type="text" placeholder=" " required autocomplete="name">
+            <label for="f-nome">Seu nome</label>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <input id="f-origem" name="origem" type="text" placeholder=" " required>
+              <label for="f-origem">Saindo de</label>
+            </div>
+            <div class="field">
+              <input id="f-destino" name="destino" type="text" placeholder=" " required>
+              <label for="f-destino">Indo para</label>
+            </div>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <input id="f-data" name="data" type="date" placeholder=" ">
+              <label for="f-data" class="label--fixed">Data da ida</label>
+            </div>
+            <div class="field">
+              <input id="f-pax" name="passageiros" type="number" min="1" placeholder=" ">
+              <label for="f-pax">Passageiros</label>
+            </div>
+          </div>
+          <div class="field">
+            <select id="f-tipo" name="tipo">
+              <option>Viagem / Turismo</option>
+              <option>Excursão escolar</option>
+              <option>Transporte universitário</option>
+              <option>Evento / Festa</option>
+              <option>Viagem corporativa</option>
+            </select>
+            <label for="f-tipo" class="label--fixed">Tipo de viagem</label>
+          </div>
+          <button type="submit" class="btn btn--red btn--lg btn--block">
+            <svg viewBox="0 0 24 24"><use href="#i-wa"/></svg> Enviar pelo WhatsApp
+          </button>
+          <p class="quote__note">Ao enviar, abriremos o WhatsApp com sua mensagem pronta.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <img src="img/logo-aravans.webp" alt="Ara Vans Viagens e Turismo" class="logo logo--footer" width="640" height="143">
+        <p class="footer__tag">Transformando sonhos em destinos.</p>
+      </div>
+      <div>
+        <h5>Navegação</h5>
+        <a href="#servicos">Serviços</a><a href="#frota">Frota</a><a href="#destinos">Destinos</a><a href="#orcamento">Orçamento</a>
+      </div>
+      <div>
+        <h5>Contato</h5>
+        <a href="https://api.whatsapp.com/send?phone=5548999999180" target="_blank" rel="noopener">WhatsApp (48) 99999-9180</a>
+        <a href="tel:+554835246799">Telefone (48) 3524-6799</a>
+        <a href="https://www.instagram.com/aravanstur/" target="_blank" rel="noopener">Instagram @aravanstur</a>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <span>© <span id="year"></span> Ara Vans Viagens e Turismo. Todos os direitos reservados.</span>
+      <a href="#inicio" class="to-top">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <a class="wa-float" href="https://api.whatsapp.com/send?phone=5548999999180&text=Ol%C3%A1%2C%20vim%20pelo%20site!" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24"><use href="#i-wa"/></svg>
+  </a>
+
+  <!-- ICONS -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-users" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0M16 4.6a3.5 3.5 0 0 1 0 6.8M18 14a6.5 6.5 0 0 1 3.5 6"/></g></symbol>
+    <symbol id="i-snow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 2v20M3.3 7l17.4 10M3.3 17L20.7 7M9 4l3 2 3-2M9 20l3-2 3 2"/></symbol>
+    <symbol id="i-bag" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="7" width="16" height="13"/><path d="M9 7V4h6v3M4 12h16"/></g></symbol>
+    <symbol id="i-music" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l11-2v13"/><circle cx="6.5" cy="18" r="2.5"/><circle cx="17.5" cy="16" r="2.5"/></g></symbol>
+    <symbol id="i-case" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="14"/><path d="M10 6V3h4v3M10 10v6M14 10v6M8 20v1.5M16 20v1.5"/></g></symbol>
+    <symbol id="i-door" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21h16M6 21V3h12v18"/><path d="M12 3v18M9 12h1M14 12h1"/></g></symbol>
+    <symbol id="i-plug" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M9 3v5M15 3v5M6 8h12v3a6 6 0 0 1-12 0V8zM12 17v4"/></symbol>
+    <symbol id="i-wifi" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M2.5 9a14 14 0 0 1 19 0M5.5 12.5a9.5 9.5 0 0 1 13 0M8.5 16a5 5 0 0 1 7 0"/></g><circle cx="12" cy="19.3" r="1.3" fill="currentColor"/></symbol>
+    <symbol id="i-tv" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="12"/><path d="M8 21h8M9 2.5l3 3.5 3-3.5"/></g></symbol>
+    <symbol id="i-wc" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="4.5" r="1.8"/><circle cx="17" cy="4.5" r="1.8"/><path d="M5 21v-6H4l1-7h4l1 7H9v6M15 21v-5h-1.5L15 8h4l1.5 8H19v5"/></g></symbol>
+    <symbol id="i-fridge" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2.5" width="12" height="19"/><path d="M6 9.5h12M9 5.5v1.5M9 12.5v3"/></g></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6l8-3z"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M8.5 12l2.5 2.5 4.5-5"/></symbol>
+    <symbol id="i-seat" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M7 4h4l1 9h6a2 2 0 0 1 2 2v1H8.5a2 2 0 0 1-2-1.7L5 6a2 2 0 0 1 2-2zM9 16v4M17 16v4"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-wheel" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="2.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M3.5 10.5c5 1 12 1 17 0M12 14.2V21M10 13l-5 5.5M14 13l5 5.5"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M4 5h16v11H9l-5 4V5z"/><path stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M8 10h8M8 13h5"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></symbol>
+    <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor"/></symbol>
+    <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.3.8 3.2.7.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></symbol>
+  </svg>
+
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
