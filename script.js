@@ -119,38 +119,6 @@
     });
   }
 
-  /* ---------- fleet carousel: arrows + drag ---------- */
-  const fleet = $('#fleet');
-  if (fleet) {
-    const step = () => (fleet.querySelector('.vehicle')?.offsetWidth || 400) + 24;
-    $$('.fleet__nav .round-btn').forEach(b => b.addEventListener('click', () => {
-      fleet.scrollBy({ left: step() * Number(b.dataset.dir), behavior: 'smooth' });
-    }));
-
-    let down = false, startX = 0, startLeft = 0, moved = 0;
-    fleet.addEventListener('pointerdown', e => {
-      if (e.pointerType !== 'mouse') return;
-      down = true; moved = 0; startX = e.clientX; startLeft = fleet.scrollLeft;
-    });
-    window.addEventListener('pointermove', e => {
-      if (!down) return;
-      const dx = e.clientX - startX;
-      moved = Math.abs(dx);
-      if (moved > 4) fleet.classList.add('is-dragging');
-      fleet.scrollLeft = startLeft - dx;
-    });
-    window.addEventListener('pointerup', () => {
-      if (!down) return;
-      down = false;
-      fleet.classList.remove('is-dragging');
-      // snap to the nearest card
-      const s = step();
-      fleet.scrollTo({ left: Math.round(fleet.scrollLeft / s) * s, behavior: 'smooth' });
-    });
-    // let vertical wheel scroll the page, horizontal trackpad scroll the carousel
-    fleet.setAttribute('data-lenis-prevent-horizontal', '');
-  }
-
   /* ---------- destinations prefill form ---------- */
   $$('.dest').forEach(d => d.addEventListener('click', () => {
     const v = d.dataset.dest;
